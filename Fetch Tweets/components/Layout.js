@@ -20,7 +20,6 @@ class Layout extends React.Component {
 				return 	<li key={id++}>{tweet.text}</li>;
 			}
 		});
-		
 		return (
 			<div>
 				<Button />
