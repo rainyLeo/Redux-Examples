@@ -13,6 +13,7 @@ class Layout extends React.Component {
 		if (!tweets.length) {
 			return <Button />;
 		}
+		
 		let id = 0;
 		const mappedTweets = tweets.map(tweet => {
 			if (tweet.text)	{
