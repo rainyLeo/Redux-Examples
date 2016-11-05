@@ -1,0 +1,17 @@
+{
+  "name": "todo-mvc",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --hot --content-base public"
+  },
+  "devDependencies": {
+    "babel-preset-stage-2": "^6.18.0"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2"
+  }
+}
